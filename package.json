@@ -1,8 +1,8 @@
 {
   "name": "lemon",
   "theme": "syntax",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.0",
+  "private": false,
   "description": "Peppy yellow paired with shades of blue and green.",
   "repository": "https://github.com/feministy/lemon",
   "license": "MIT",
