@@ -1,0 +1,12 @@
+{
+  "name": "lemon",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Peppy yellow paired with shades of blue and green.",
+  "repository": "https://github.com/atom/lemon",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
