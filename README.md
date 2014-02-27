@@ -2,6 +2,17 @@
 
 A happy theme for [Atom](http://atom.io) featuring peppy yellow paired with shades of blue and green.
 
+To install:
+
+```
+$ cd ~/.atom/packages
+$ git clone https://github.com/feministy/lemon.git
+```
+
+Then enable in your settings:
+
+![alt text](https://raw.github.com/feministy/lemon/master/screenshots/settings.png "Friendly settings window")
+
 ## Screenshots
 
 Font shown is [Source Code Pro](http://www.google.com/fonts/specimen/Source+Code+Pro) at size 14.
