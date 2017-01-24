@@ -49,66 +49,66 @@
   opacity: 0.7;
 }
 
-.comment {
+.syntax--comment {
   color: @base01;
   font-style: italic;
 }
 
-.entity {
+.syntax--entity {
   color: @green;
 }
 
-.keyword {
+.syntax--keyword {
   color: @yellow;
   font-weight: 600;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   color: @green;
 }
 
-.constant {
+.syntax--constant {
   color: @teal;
 
-  &.numeric,
-  &.boolean {
+  &.syntax--numeric,
+  &.syntax--boolean {
     color: @teal;
   }
 }
 
-.variable {
+.syntax--variable {
   color: @blue;
 }
 
-.delimiter, .brace {
+.syntax--delimiter, .syntax--brace {
   color: @cyan;
 }
 
-.delimiter.period {
+.syntax--delimiter.syntax--period {
   color: @green;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   text-decoration: underline;
   color: @red;
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   color: @red;
 }
 
-.string {
+.syntax--string {
   color: @teal;
 
-  .constant.character.escape {
+  .syntax--constant.syntax--character.syntax--escape {
     color: @red;
   }
 
-  &.regexp {
+  &.syntax--regexp {
     color: @cyan;
 
-    .source.ruby.embedded,
-    .string.regexp.arbitrary-repitition {
+    .syntax--source.syntax--ruby.syntax--embedded,
+    .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
       color: @red;
     }
   }
